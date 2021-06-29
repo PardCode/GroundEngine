@@ -5,8 +5,6 @@
 [![Discord channel](https://img.shields.io/discord/622797245368238082?logo=discord)](https://discord.gg/RymBzwKPyZ)
 [![Patreon](https://img.shields.io/badge/Patreon-Donate-orange)](https://www.patreon.com/pardcode)
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red)](https://www.youtube.com/channel/UCs1ssVSR49YItKE7DZ3-Jcw)
-[![Facebook](https://img.shields.io/badge/Facebook-Like-blue)](https://www.facebook.com/groundengine)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-lightblue)](https://twitter.com/ground_engine)
 
 
 `Ground Engine` is an easy to use Game Engine Framework for 3D Game Development written in **C++**.<br/>
