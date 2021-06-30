@@ -24,7 +24,7 @@ You can find the license [here](#license).
 
 This project is available under a free and permissive license, but needs a financial support to sustain its development.<br/> 
 The development includes both the making of video tutorials and the writing of the code.<br/> 
-Consider to support it through [`Patreon`](https://www.patreon.com/pardcode).<br/>  
+If this project is helpful to you, consider to support it through [`Patreon`](https://www.patreon.com/pardcode).<br/>  
 Any single contribution would be greately appreciated, regardless the amount.<br/>
 Many thanks to all [**these people**](#supporters) who have supported me so far!
 
