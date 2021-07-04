@@ -9,7 +9,7 @@
 
 `Ground Engine` is an easy to use Game Engine Framework for 3D Game Development written in **C++**.<br/>
 It's currently under development and its creation will be documented through the YouTube Tutorial Series
-[`Game Engine Development Series`]().<br/>
+[`Game Engine Development Series`](https://www.youtube.com/playlist?list=PLv8DnRaQOs5-2k_1VuXF7T_6hu9UprSme).<br/>
 
 ---
 
@@ -38,7 +38,7 @@ Thank you so much for your huge support!
 
 Ahmad A. - Andrew C. - Andrew M. - Anotherbear Gamer - Bastien R. - bdfy - Biuret<br/>
 Carlo S. - Daniel W. - Elite Salad - hisuzuki - Howl C - James B. - Joshua v.<br/>
-kuronk cat - Lie - Manuel H. - Mateusz P. - Miles H. - Murdo M. - Nikhil R.<br/>
+kuronk cat - Lie - Manuel H. - Mateusz P. - Matthew - Miles H. - Murdo M. - Nikhil R.<br/>
 Neil W. - Oliver H. - Patrick B. - Ridtichai B. - Rem saigao<br/>
 REX Li - Robson - Snip - Squeegiefilms - The Spygineer<br/>
 Valgard - Werner O. - WyattFlash<br/>
