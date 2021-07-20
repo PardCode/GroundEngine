@@ -1,4 +1,4 @@
-/*Ground Engine (https://www.groundengine.com)
+/*Ground Engine (https://www.pardcode.com/groundengine)
 
 Copyright (c) 2021, PardCode All rights reserved.
 
@@ -16,9 +16,11 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABI
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, 
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
+#include "ExampleApplication.h"
 
 int main()
 {
-
+    ExampleApplication app;
+    app.run();
 	return 0;
 }
