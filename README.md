@@ -40,7 +40,7 @@ Ahmad A. - Andrew C. - Andrew M. - Anotherbear Gamer - Austin M. - Bastien R. - 
 Carlo S. - Daniel W. - Elite Salad - hisuzuki - Howl C - James B. - Jesse M.C. - Joshua v.<br/>
 Kim W. - kuronk cat - Lie - Manuel H. - Mateusz P. - Matthew - Miles H. - Murdo M. - Nikhil R.<br/>
 Neil W. - Oliver H. - Patrick B. - Ridtichai B. - Rem saigao<br/>
-REX Li - Robson - Snip - Squeegiefilms - The Spygineer<br/>
+REX Li - Robson - Snip - Squeegiefilms - The Spygineer - The Tutorial Chef<br/>
 Valgard - Werner O. - WyattFlash<br/>
 
 **All YouTube - Discord - GitHub - Twitter followers and viewers** 
