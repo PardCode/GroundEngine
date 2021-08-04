@@ -37,13 +37,12 @@ Thank you so much for your huge support!
 **Patreon Supporters (alphabetical order)**  
 
 Ahmad A. - Andrew C. - Andrew M. - Anotherbear Gamer - Austin M. - Bastien R. - bdfy - Biuret<br/>
-Carlo S. - Daniel W. - Elite Salad - hisuzuki - Howl C - James B. - Jesse M.C. - Joshua v.<br/>
-Kim W. - kuronk cat - Lie - Manuel H. - Mateusz P. - Matthew - Miles H. - Murdo M. - Nikhil R.<br/>
-Neil W. - Oliver H. - Patrick B. - Ridtichai B. - Rem saigao<br/>
-REX Li - Robson - Snip - Squeegiefilms - The Spygineer - The Tutorial Chef<br/>
-Valgard - Werner O. - WyattFlash<br/>
+Carlo S. - Daniel W. - Edward T.O. - Elite Salad - hisuzuki - Howl C - James B. - Jesse M.C.<br/>
+Joshua v. - Kim W. - kuronk cat - Lie - Manuel H. - Mateusz P. - Matthew - Miles H.<br/>
+Murdo M. - Nikhil R. - Neil W. - Oliver H. - Patrick B. - Ridtichai B. - Rem saigao - REX Li<br/>
+Robson - Snip - Squeegiefilms - The Spygineer - The Tutorial Chef - Valgard - Werner O. - WyattFlash<br/>
 
-**All YouTube - Discord - GitHub - Twitter followers and viewers** 
+**All YouTube, Discord, GitHub, Twitter followers and viewers** 
 
 # License
 
