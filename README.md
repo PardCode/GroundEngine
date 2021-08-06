@@ -36,7 +36,7 @@ Thank you so much for your huge support!
 
 **Patreon Supporters (alphabetical order)**  
 
-Ahmad A. - Andrew C. - Andrew M. - Anotherbear Gamer - Austin M. - Bastien R. - bdfy - Biuret<br/>
+Ahmad A. - Andrew C. - Andrew M. - Anotherbear Gamer - Asterot13 - Austin M. - Bastien R. - bdfy - Biuret<br/>
 Carlo S. - Daniel W. - Edward T.O. - Elite Salad - hisuzuki - Howl C - James B. - Jesse M.C.<br/>
 Joshua v. - Kim W. - kuronk cat - Lie - Manuel H. - Mateusz P. - Matthew - Miles H.<br/>
 Mohammed A. - Murdo M. - Nikhil R. - Neil W. - Oliver H. - Patrick B. - Ridtichai B. - Rem saigao<br/>
