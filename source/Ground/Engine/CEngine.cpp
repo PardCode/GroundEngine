@@ -16,16 +16,43 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABI
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
-#pragma once
+#include "CEngine.h"
+#include <Ground/Core/GCommon.h>
+using namespace ground;
 
-#define GROUND_WINDOWS (_WIN32 || _WIN64)
+CEngine* CEngine::m_instance = nullptr;
 
-#if GROUND_WINDOWS
+GroundEngine* ground::CreateGroundEngine()
+{
+	return CEngine::create();
+}
 
-#if defined GROUND_EXPORTS
-	#define GROUND_API __declspec(dllexport)
-#else
-	#define GROUND_API __declspec(dllimport)
-#endif
 
-#endif
+ground::CEngine::CEngine()
+{
+}
+
+ground::CEngine::~CEngine()
+{
+}
+
+void ground::CEngine::release()
+{
+	CEngine::destroy();
+}
+
+
+
+CEngine* ground::CEngine::create()
+{
+	GASSERT(!m_instance);
+	m_instance = new CEngine();
+	return m_instance;
+}
+
+void ground::CEngine::destroy()
+{
+	GASSERT(m_instance);
+	delete m_instance;
+	m_instance = nullptr;
+}

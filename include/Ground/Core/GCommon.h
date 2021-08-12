@@ -17,31 +17,22 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 #pragma once
-#include "GroundEngine/Core/GCommon.h"
+#include <stdlib.h>
 
 
-namespace ground
-{
-	class GROUND_API GApplication
-	{
-	public:
-		GApplication();
-		virtual ~GApplication();
+#define GROUND_WINDOWS (_WIN32 || _WIN64)
 
-		virtual void onInit() {}
-		virtual void onQuit() {}
+#if GROUND_WINDOWS
 
+	#if defined GROUND_EXPORTS
+		#define GROUND_API __declspec(dllexport)
+	#else
+		#define GROUND_API __declspec(dllimport)
+	#endif
 
-		void run();
-		void quit();
-
-	public:
-		static GApplication* get();
-
-	private:
-		static GApplication* m_instance;
-	private:
-		bool m_isRunning = true;
-	};
-
+#define GASSERT(x)\
+{\
+	if ((x) == 0) {abort();}\
 }
+
+#endif

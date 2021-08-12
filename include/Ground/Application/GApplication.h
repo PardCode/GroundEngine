@@ -17,20 +17,32 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 #pragma once
+#include <Ground/Core/GCommon.h>
+#include <Ground/Engine/GroundEngine.h>
 
-
-#include <Ground/Application/GApplication.h>
-
-
-
-class ExampleApplication: public ground::GApplication
+namespace ground
 {
-public:
-	ExampleApplication();
-	~ExampleApplication();
+	class GROUND_API GApplication
+	{
+	public:
+		GApplication();
+		virtual ~GApplication();
 
-	virtual void onInit();
-	virtual void onQuit();
-	virtual void onUpdate();
-};
+		virtual void onInit() {}
+		virtual void onQuit() {}
+		virtual void onUpdate() {}
 
+		void run();
+		void quit();
+
+	public:
+		static GApplication* get();
+
+	private:
+		static GApplication* m_instance;
+	private:
+		bool m_isRunning = true;
+		GroundEngine* m_engine = nullptr;
+	};
+
+}

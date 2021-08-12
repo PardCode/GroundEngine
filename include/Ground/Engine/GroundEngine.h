@@ -18,19 +18,18 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
 #pragma once
 
-
-#include <Ground/Application/GApplication.h>
-
+#include <Ground/Core/GCommon.h>
 
 
-class ExampleApplication: public ground::GApplication
+namespace ground
 {
-public:
-	ExampleApplication();
-	~ExampleApplication();
+	class GroundEngine
+	{
+	public:
+		GroundEngine() {}
+		~GroundEngine() {}
+		virtual void release() = 0;
+	};
 
-	virtual void onInit();
-	virtual void onQuit();
-	virtual void onUpdate();
-};
-
+	GROUND_API GroundEngine* CreateGroundEngine();
+}

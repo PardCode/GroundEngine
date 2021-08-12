@@ -16,8 +16,9 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABI
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.*/
 
-#include "GroundEngine/Application/GApplication.h"
+#include <Ground/Application/GApplication.h>
 #include <stdexcept>
+#include <assert.h>
 using namespace ground;
 
 
@@ -26,14 +27,14 @@ GApplication* GApplication::m_instance = nullptr;
 
 ground::GApplication::GApplication()
 {
-	if (!m_instance)
-		m_instance = this;
-	else
-		throw std::runtime_error("GApplication already created.");
+	GASSERT(!m_instance);
+	m_instance = this;
+	m_engine = ground::CreateGroundEngine();
 }
 
 ground::GApplication::~GApplication()
 {
+	m_engine->release();
 }
 
 void ground::GApplication::run()
@@ -42,8 +43,7 @@ void ground::GApplication::run()
 
 	while (m_isRunning)
 	{
-
-
+		onUpdate();
 	}
 
 	onQuit();
@@ -56,5 +56,6 @@ void ground::GApplication::quit()
 
 GApplication* ground::GApplication::get()
 {
+	GASSERT(m_instance);
 	return m_instance;
 }

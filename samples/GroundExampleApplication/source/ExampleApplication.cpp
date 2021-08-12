@@ -33,3 +33,8 @@ void ExampleApplication::onInit()
 void ExampleApplication::onQuit()
 {
 }
+
+void ExampleApplication::onUpdate()
+{
+    quit();
+}

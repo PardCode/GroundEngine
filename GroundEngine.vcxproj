@@ -143,11 +143,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="include\GroundEngine\Application\GApplication.h" />
-    <ClInclude Include="include\GroundEngine\Core\GCommon.h" />
+    <ClInclude Include="source\Ground\Engine\CEngine.h" />
+    <ClInclude Include="include\Ground\Application\GApplication.h" />
+    <ClInclude Include="include\Ground\Core\GCommon.h" />
+    <ClInclude Include="include\Ground\Engine\GroundEngine.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Application\GApplication.cpp" />
+    <ClCompile Include="source\Ground\Engine\CEngine.cpp" />
+    <ClCompile Include="source\Ground\Application\GApplication.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
